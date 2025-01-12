@@ -1,6 +1,6 @@
 name: Release Crate
 description: Release a crate name on crates.io
-title: [CRATE RELEASE]: 
+title: "[CRATE RELEASE]: " 
 
 body:
   - type: markdown
