@@ -1,0 +1,27 @@
+name: Release Crate
+description: Release a crate name on crates.io
+title: 
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reaching out! Please specify the crate name you'd like released.
+  - type: input
+    id: crate
+    attributes:
+      label: Crate name
+      description: Crate name that you want released
+  - type: markdown
+    attributes:
+      value: |
+        Feel free to leave additional contact details
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+
